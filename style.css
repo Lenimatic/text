@@ -1,0 +1,46 @@
+@import url(https://fonts.google.com/specimen/Rubik);
+
+:root {
+    --White-color: hsl(0, 0%, 100%);
+    --Light-Violet: hsl(264, 100%, 61%);
+    --Light-Magenta: hsl(293, 100%, 63%);
+    --Dark-Grayish-Violet-paragraph: hsl(270, 7%, 64%);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    line-height: 1;
+    background-color: var(--White-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  
+
+
