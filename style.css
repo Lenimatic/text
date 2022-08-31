@@ -2,9 +2,10 @@
 
 :root {
     --White-color: hsl(0, 0%, 100%);
-    --Light-Violet: hsl(264, 100%, 61%);
-    --Light-Magenta: hsl(293, 100%, 63%);
+    --Light-Violet: #8838ff;
+    --Light-Magenta:  hsl(293, 100%, 63%);
     --Dark-Grayish-Violet-paragraph: hsl(270, 7%, 64%);
+    --background-color: linear-gradient(90deg, rgba(233,66,255,1) 0%, rgba(136,56,255,1) 100%);
 }
 
 * {
@@ -16,8 +17,125 @@
 
 body {
     min-height: 100vh;
-    line-height: 1;
+}
+
+.main_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rec__box {
+    width: 400px;
+    height: 700px;
+    background-color: #8838ff;
+    align-self: flex-start;
+    border-bottom-right-radius: 200px;
+}
+
+/* Cell Image*/
+
+
+.cell__body {
+    font-size: 9px; 
+    display: flex;     
+}
+
+.header {
+    display: flex;
+    background-color: #8838ff;
+    padding: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.header h1 {
+    font-size: 16px;
+    margin-bottom: 5px; 
+    color: var(--White-color);  
+}
+
+.profile__image {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: solid var(--White-color) 1px;
+}
+
+.cell__inner {
+    height: 350px;
+    width: 450px;
+}
+
+.body__text {
+    background-color: hsl(270, 8%, 81%);
+    display: flex;
+    flex-direction: column;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.body__text img {
+    width: 35px;
+    height: 35px;
+    border-radius: 4px;
+    
+}
+
+#image__doggies {
+    align-self: flex-end;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.body__text p {
+    width: 150px;
+    margin-bottom: 10px;
+    padding: 5px;
+    background-size: contain;
+    
+}
+
+.bubble {
+    width: fit-content;
+    border-radius: 9px;
+}
+
+#gray__text {
+    background-color: var(--Dark-Grayish-Violet-paragraph);
+    color: #8838ff;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#white__text {
     background-color: var(--White-color);
+    align-self: flex-end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+#colour__text {
+    background-color: #8838ff;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#input__btn input {
+    border-radius: 50px;
+    margin-left: 10px;
+    margin-bottom: 8px;
+    margin-top: 10px;
+    padding: 10px;
+    padding-right: 73px;
+    border: white;
+}
+
+/* Cell Image end*/
+
+
+
+.text__slide {
+    width: 100px;
 }
 
 
@@ -25,22 +143,8 @@ body {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
   
 
 
