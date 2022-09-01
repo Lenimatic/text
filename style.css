@@ -25,26 +25,28 @@ body {
     align-items: center;
 }
 
-.rec__box {
-    width: 400px;
-    height: 700px;
+    .rec__box {
+    width: 310px;
+    height: 600px;
     background-color: #8838ff;
     align-self: flex-start;
     border-bottom-right-radius: 200px;
-}
+    
+} 
 
 /* Cell Image*/
 
 
 .cell__body {
     font-size: 9px; 
-    display: flex;     
+    display: flex; 
+    
 }
 
 .header {
     display: flex;
     background-color: #8838ff;
-    padding: 20px;
+    padding: 15px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
@@ -62,12 +64,25 @@ body {
 }
 
 .cell__inner {
-    height: 350px;
-    width: 450px;
-}
+    height: 300px;
+    width: 250px;
+    margin-top: 10px;
+    margin-left: 10px;
+} 
+
+    #whitie {
+        background-color: white;
+        width: 270px;
+        height: 513px;
+        box-shadow: 10px 10px 15px -11px rgba(0,0,0,0.75);
+        margin-left: -60px;
+        margin-top: 80px;
+        border-radius: 20px;
+    }
+
 
 .body__text {
-    background-color: hsl(270, 8%, 81%);
+    background-color: hsl(270, 8%, 81%); 
     display: flex;
     flex-direction: column;
     border-bottom-left-radius: 20px;
@@ -126,22 +141,48 @@ body {
     margin-bottom: 8px;
     margin-top: 10px;
     padding: 10px;
-    padding-right: 73px;
+    padding-right: 55px;
     border: white;
 }
 
 /* Cell Image end*/
 
+/*Text start*/
 
-
-.text__slide {
-    width: 100px;
+#simple__booking {
+    margin-left: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
+#simple__booking h2 {
+    font-size: 2rem;
+    margin-bottom: 25px;
+}
 
+#simple__booking p {
+    font-size: 1rem;
+    line-height: 20px;
+    width: 415px;
+}
 
+#simpletext {
+    margin-left: 80px;
+}
 
+.rec__box__gray {
+    width: 310px;
+    height: 600px;
+    background-color: hsl(260, 7%, 84%);
+    margin-top: 60px;
+    border-top-left-radius: 200px;
+    opacity: 0.2;
+    margin-left: -20px;
+}
 
+/*Text start End*/
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
